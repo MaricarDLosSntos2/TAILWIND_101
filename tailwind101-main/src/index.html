@@ -6,51 +6,39 @@
   <title>Profile Card</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex justify-center items-center min-h-screen bg-teal-400 font-sans p-4">
+<body class="flex justify-center items-center min-h-screen bg-teal-400 font-sans">
 
-  <div class="bg-gray-100 bg-opacity-90 rounded-2xl shadow-xl p-6 w-full max-w-sm 
-              md:max-w-md lg:max-w-lg xl:max-w-4xl transition-transform hover:scale-105 duration-300">
-    
-    <!-- Profile Image -->
-    <img src="images.jpg" alt="Profile Picture" 
-         class="w-28 h-28 rounded-full object-cover mx-auto mb-4 border-4 border-white shadow-md">
-    
+  <div class="bg-white p-8 rounded-2xl shadow-lg max-w-sm text-center">
     <!-- Name -->
-    <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center text-gray-900">
-      Maricar De Los Santos
-    </h1>
-
-    <!-- Subtitle -->
-    <h2 class="text-sm md:text-base lg:text-lg text-gray-700 text-center mt-1">
-      Playing Volleyball | Lives in Calaca City
-    </h2>
-
-    <!-- About -->
-    <p class="text-base md:text-lg lg:text-xl text-gray-800 mt-4 indent-6 leading-relaxed">
-      My hobby is playing volleyball because it makes me happy and active. 
-      I started playing volleyball in high school.
-    </p>
-
-    <!-- 12 Things I Want To Do -->
-    <h3 class="text-lg md:text-xl lg:text-2xl mt-6 uppercase underline font-semibold text-gray-900 text-center">
-      12 Things I Want To Do:
-    </h3>
-
-    <!-- Grid Card List -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-      <div class="grid-child">Travel to different countries</div>
-      <div class="grid-child">Learn how to bake cakes and pastries</div>
-      <div class="grid-child">Improve my volleyball skills</div>
-      <div class="grid-child">Build a small business</div>
-      <div class="grid-child">Buy my dream house</div>
-      <div class="grid-child">Learn to swim professionally</div>
-      <div class="grid-child">Finish my studies with good grades</div>
-      <div class="grid-child">Spend more time with my family</div>
-      <div class="grid-child">Help people in need</div>
-      <div class="grid-child">Improve my cooking skills</div>
-      <div class="grid-child">Go on adventures with friends</div>
-      <div class="grid-child">Live a happy and healthy life</div>
+    <div class="text-2xl font-bold text-gray-900 uppercase tracking-widest">
+      Eliza De Roxas
     </div>
+
+    <!-- Title -->
+    <div class="italic text-lg text-gray-600 mt-1">
+      College Student
+    </div>
+
+    <!-- Location -->
+    <div class="text-sm text-gray-500 mb-4">
+      Lives in Calaca City
+    </div>
+
+    <!-- Bio -->
+    <div class="mt-4 font-semibold text-gray-800">
+      I’m a student who believes in the power of hard work and perseverance.
+    </div>
+
+    <!-- Things I Enjoy -->
+    <div class="mt-6 font-semibold underline underline-offset-4 text-gray-800">
+      Things I Enjoy:
+    </div>
+    <ul class="list-disc list-inside text-left mt-3 space-y-1 text-gray-700">
+      <li>Sketching portraits</li>
+      <li>Travel</li>
+      <li>Hanging out with my Friends</li>
+      <li>Listening to classical music</li>
+    </ul>
   </div>
 
 </body>
