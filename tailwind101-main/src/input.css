@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.grid-child{
+    @apply bg-white shadow-md rounded-lg p-4 text-gray-800 text-base md:text-lg;
+}
